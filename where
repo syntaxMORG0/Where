@@ -1,0 +1,3 @@
+#!/bin/bash
+# This goes inside /bin/
+exec "$(dirname "$0")/where.sh" "$@"
